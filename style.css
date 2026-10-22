@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Akt:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Akt", sans-serif;
+    outline: none;
+}
+
+body {
+    background-color: #2B1E54;
+}
+
+
+.logo-image {
+    display: block;
+    width: 300px;
+    margin: 24px auto;
+    border-radius: 10px;
+}
+
+main {
+    width: 375px;
+    background: #F5F5FA;
+    border-radius: 20px;
+    margin: 0 auto 50px;
+    padding: 44px 24px 23px;
+}
+
+label {
+    color: #777777;
+    font-weight: 400px;
+    font-size: 14px;
+}
+
+select {
+    background-color: #ffffff;
+    border: 1px;
+    border-radius: 6px;
+    height: 46px;
+    width: 100%;
+    margin-bottom: 24px;
+    padding-left: 15px;
+    font-weight: 700 bolder;
+    font-size: 16px;
+    color: #555555;
+    cursor: pointer;
+}
+
+input {
+    background-color: #ffffff;
+    border: 1px;
+    border-radius: 6px;
+    height: 46px;
+    width: 100%;
+    margin-bottom: 24px;
+    padding-left: 15px;
+    font-weight: 700 bolder;
+    font-size: 16px;
+    color: #555555;
+}
+
+button {
+    height: 48px;
+    width: 327px;
+    border-radius: 5px;
+    background-color: #772FD3;
+    font-weight: 700;
+    font-size: 18px;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+
+}
+
+
+button:hover {
+    opacity: 0.9;
+}
+
+button:active {
+    opacity: 0.5;
+}
+
+section {
+    border: 1px solid #772FD3;
+    border-radius: 20px;
+    margin-top: 36px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.arrow-img{
+    margin: 15px 0;
+}
+
+.currency-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+
+.currency {
+    font-size: 14px;
+    color: #777777;
+}
+
+
+.currency-value {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 18px;
+    color: #555555;
+}
+
+
+@media screen and (max-width: 1050px) {
+    .logo-image {
+        width: 90%;
+        height: auto;
+    }
+
+   main {
+    width: 100%;
+   }
+}

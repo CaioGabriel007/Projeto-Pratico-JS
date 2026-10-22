@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevClub - Convert Money</title>
+    <link rel="stylesheet" href="./style.css">
+
+
+</head>
+
+<body>
+    <img src="./logo.gif" class="logo-image">
+    <main>
+        <label>
+            converter <b>de</b>
+            <select class="originCurrency">
+                <option value="real">R$ Real Brasileiro</option>
+                <option value="dolar">US$ Dólar Americano</option>
+                <option value="euro">€ Euro</option>
+                <option value="libra">£ Libra</option>
+                <option value="bitcoin"> ₿ Bitcoin</option>   
+            </select>
+        </label>
+
+        <label>
+            converter <b>para</b>
+            <select class="currency-select">
+                <option value="dolar">US$ Dólar Americano</option>
+                <option value="euro">€ Euro</option>
+                <option value="libra">£ Libra</option>
+                <option value="bitcoin"> ₿ Bitcoin</option>
+                <option value="real">R$ Real Brasileiro</option>
+            </select>
+        </label>
+
+        <label>
+            Valor
+            <input class="input-take-of-values" placeholder="R$ 20.000,00">
+        </label>
+
+
+        <button class="convert-button">Converter</button>
+
+        <section>
+            <div class="currency-box">
+
+                <img class="coin-image" src="./assets/Real.png">
+
+                <p class="currency" id="currency-name-change">Real Brasileiro</p>
+                <p class="currency-value" id="currency-value-to-convert">R$ 20.000,00</p>
+
+            </div>
+
+            <img class="arrow-img" src="./assets/Arrow.png">
+
+            <div class="currency-box">
+
+                <img class="currrency-img" src="./assets/Dólar.png">
+                <p class="currency" id="currency-name-change-two">Dólar Americano</p>
+                <p class="currency-value" id="currency-converted">US$ 4.000,00</p>
+
+            </div>
+        </section>
+    </main>
+</body>
+<script src="./scripts.js"></script>
+
+</html>
